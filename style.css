@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(rgba(0,0,0,0.75)), url(./ai-generated-8352992_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    /* color: whitesmoke; */
+    /* color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    border-style:  */
+}
+.navbar{
+    background-color: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.logo{
+    font-size:1.5rem ;
+    font-weight: bold;
+}
+.nav-links{
+   list-style-type: none; 
+   display: flex;
+   gap: 2rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+a:hover{
+    color: #38bdf8;
+}
+
+/* Login style */
+.form-container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+   
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: left;
+    margin-bottom: 1.5rem;
+    color: aliceblue;
+    font-size:medium;
+}
+label{
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+#email,#password{
+width: 100%;
+padding: 0.6rem;
+margin-bottom: 1rem;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+button{
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #0f172a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #1e293b;
+}
