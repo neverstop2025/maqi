@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.home{
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     background-image: linear-gradient(rgba(0,0,0,0.75)), url(./ai-generated-8352992_1280.jpg);
@@ -63,11 +63,25 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
-h1{
-    text-align: left;
+#course-heading{
     margin-bottom: 1.5rem;
     color: aliceblue;
-    font-size:medium;
+    font-size: 50px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+#home-heading{
+    margin-bottom: 1.5rem;
+    color: aliceblue;
+    font-size: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
 }
 label{
   display: block;
@@ -93,4 +107,47 @@ button{
 }
 button:hover{
     background-color: #1e293b;
+}
+h2{
+    margin-bottom: 4px;
+    text-align: center;
+}
+.courses{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(rgba(0,0,0,0.75)), url(./pro-studio-2937531_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.75)), url(./pro-studio-2937531_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.contact{
+    background-image: linear-gradient(rgba(0,0,0,0.75)), url(./music-6954018_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    color:cornsilk;
+}
+.about{
+    background-image: linear-gradient(rgba(0,0,0,0.75)), url(./musician-349790_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color:cornsilk;
+}
+.form-container{
+    
 }
