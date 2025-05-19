@@ -1,0 +1,72 @@
+.navbar{
+    background-color: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.logo{
+    font-size:1.5rem ;
+    font-weight: bold;
+}
+.nav-links{
+   list-style-type: none; 
+   display: flex;
+   gap: 2rem;
+}
+.courses{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(rgba(0,0,0,0.75)), url(./pro-studio-2937531_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
+}
+a:hover{
+    color: #38bdf8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.music{
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 40px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h2{
+    margin-bottom: 10px;
+}
+p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+li{
+    padding: 5px 0;
+}
+button{
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+}

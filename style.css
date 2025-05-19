@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .home{
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif;
     font-weight: 600;
     background-image: linear-gradient(rgba(0,0,0,0.75)), url(./ai-generated-8352992_1280.jpg);
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    margin: 0;
+    margin: 0; */
     /* color: whitesmoke; */
     /* color: aliceblue;
     text-align: center;
@@ -47,31 +47,11 @@ a{
 a:hover{
     color: #38bdf8;
 }
-
-/* Login style */
-.form-container{
-    background-color: white;
-    padding: 2rem;
-    border-radius: 8px;
-   
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
 .main{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#course-heading{
-    margin-bottom: 1.5rem;
-    color: aliceblue;
-    font-size: 50px;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
 }
 #home-heading{
     margin-bottom: 1.5rem;
@@ -82,31 +62,6 @@ a:hover{
     justify-content: center;
     align-items: center;
     font-weight: 500;
-}
-label{
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
-#email,#password{
-width: 100%;
-padding: 0.6rem;
-margin-bottom: 1rem;
-border: 1px solid #ccc;
-border-radius: 4px;
-}
-button{
-    width: 100%;
-    padding: 0.7rem;
-    background-color: #0f172a;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    cursor: pointer;
-}
-button:hover{
-    background-color: #1e293b;
 }
 h2{
     margin-bottom: 4px;
@@ -120,7 +75,7 @@ h2{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 50vh;
+    height: 85vh;
 }
 .main{
     background-image: linear-gradient(rgba(0,0,0,0.75)), url(./pro-studio-2937531_1280.jpg);
@@ -128,18 +83,9 @@ h2{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
-}
-.contact{
-    background-image: linear-gradient(rgba(0,0,0,0.75)), url(./music-6954018_1280.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 50vh;
-    color:cornsilk;
-}
-.about{
+    height: 90vh;
+} 
+/* .about{
     background-image: linear-gradient(rgba(0,0,0,0.75)), url(./musician-349790_1280.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -147,7 +93,54 @@ h2{
     background-attachment: fixed;
     height: 100vh;
     color:cornsilk;
-}
+} */
 .form-container{
-    
+
+}
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+    background-color: #e4d5e7;
+}
+.about-image{
+    flex: 1  1 300px;
+}
+.about-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2));
+}
+.about-text{
+    flex: 1  1 300px;
+}
+.about-text{
+    font-size: 2em;
+    margin-bottom: 200px;
+}
+.about-text{
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+/* button:hover{
+    background-color: #1e293b;
+} */
+button:hover{
+    background-color: #1e293b;
+}
+button{
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #0f172a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
 }

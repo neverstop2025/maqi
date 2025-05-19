@@ -1,0 +1,44 @@
+.navbar{
+    background-color: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.logo{
+    font-size:1.5rem ;
+    font-weight: bold;
+}
+.nav-links{
+   list-style-type: none; 
+   display: flex;
+   gap: 2rem;
+}
+.courses{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(rgba(0,0,0,0.75)), url(./pro-studio-2937531_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
+}
+a:hover{
+    color: #38bdf8;
+}
+.contact{
+    background-image: linear-gradient(rgba(0,0,0,0.75)), url(./music-6954018_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    color:cornsilk;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
