@@ -36,9 +36,44 @@ a:hover{
     background-attachment: fixed;
     height: 90vh;
     color:cornsilk;
+        font-family: 'Courier New', Courier, monospace;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.card{
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 10px;
+    box-shadow: 0px 9px 14px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+.card:hover{
+    transform: rotate((300deg));
+}
+.card img{
+    width: 100%;
+    display: block;
+    transition: transform 0.4 ease;
+}
+.card .caption{
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0px, 0px, 0.6);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.4s ease ;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+.card:hover .caption{
+    opacity: 1;
 }
