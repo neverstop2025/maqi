@@ -29,7 +29,7 @@ a:hover{
     color: #38bdf8;
 }
 .contact{
-    background-image: linear-gradient(rgba(0,0,0,0.75)), url(./music-6954018_1280.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.75)), url(./music-6954018_1280.jpg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
